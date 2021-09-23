@@ -1,0 +1,9 @@
+namePrefix: geotest
+
+bases:
+  - ../../../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml
+
+
