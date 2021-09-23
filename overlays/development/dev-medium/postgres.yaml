@@ -2,9 +2,10 @@ apiVersion: postgres-operator.crunchydata.com/v1beta1
 kind: PostgresCluster
 metadata:
   name: -gold
-  instance: development
-  version: medium
-  managed-by: operations
+  labels:
+    app.kubernetes.io/instance: development
+    app.kubernetes.io/version: medium
+    app.kubernetes.io/managed-by: operations
 spec:
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1
   postgresVersion: 13
