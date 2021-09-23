@@ -1,15 +1,12 @@
-namespace: payments-prod
-nameSuffix: -prod
+namePrefix: prod-large
 
 generatorOptions:
   disableNameSuffixHash: true
 
 bases:
-  - ../../base/postgres
+  - ../../../base/postgres
 
 patchesStrategicMerge:
   - postgres.yaml
 
-resources:
-  - namespace.yaml
 

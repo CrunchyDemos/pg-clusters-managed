@@ -1,0 +1,10 @@
+namePrefix: staging-large
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+bases:
+  - ../../../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml

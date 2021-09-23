@@ -1,0 +1,10 @@
+namePrefix: prod-medium
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+bases:
+  - ../../../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml

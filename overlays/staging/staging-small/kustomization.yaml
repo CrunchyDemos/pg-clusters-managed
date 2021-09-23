@@ -1,7 +1,9 @@
-namePrefix: dev-medium
+namePrefix: staging-small
 
 bases:
   - ../../../base/postgres
 
 patchesStrategicMerge:
   - postgres.yaml
+
+
