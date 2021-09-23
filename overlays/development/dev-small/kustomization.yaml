@@ -1,4 +1,4 @@
-nameSuffix: -small-dev
+namePrefix: geotest
 
 bases:
   - ../../../base/postgres
