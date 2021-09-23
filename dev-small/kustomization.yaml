@@ -1,0 +1,11 @@
+namespace: payments-dev
+nameSuffix: -dev
+
+bases:
+  - ../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml
+
+resources:
+  - namespace.yaml

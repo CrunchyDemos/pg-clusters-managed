@@ -1,0 +1,15 @@
+namespace: payments-prod
+nameSuffix: -prod
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+bases:
+  - ../base/postgres
+
+patchesStrategicMerge:
+  - postgres.yaml
+
+resources:
+  - namespace.yaml
+
