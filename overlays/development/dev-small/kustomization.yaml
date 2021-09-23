@@ -7,5 +7,5 @@ bases:
 patchesStrategicMerge:
   - postgres.yaml
 
-resources:
-  - namespace.yaml
+#resources:
+#  - namespace.yaml
