@@ -10,9 +10,10 @@ spec:
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1
   postgresVersion: 13
   instances:
-  - replicas: 5
-  - dataVolumeClaimSpec:
-    accessModes:
-    - "ReadWriteOnce"
-    resources:
-      requests: []
+  - name: instance1
+    replicas: 5
+    dataVolumeClaimSpec:
+      accessModes:
+      - "ReadWriteOnce"
+      resources:
+        requests: []
