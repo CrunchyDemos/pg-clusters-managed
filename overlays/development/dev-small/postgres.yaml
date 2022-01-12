@@ -11,4 +11,7 @@ spec:
   postgresVersion: 13
   instances:
   - replicas: 5
-  - dataVolumeClaimSpec: {}
+  - dataVolumeClaimSpec:
+    accessModes: "ReadWriteOnce"
+    resources:
+      requests: []
