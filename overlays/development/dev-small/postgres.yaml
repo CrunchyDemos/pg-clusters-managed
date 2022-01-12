@@ -13,7 +13,6 @@ spec:
   - name: instance1
     replicas: 5
     dataVolumeClaimSpec:
-      accessModes:
-      - "ReadWriteOnce"
+      accessModes: "ReadWriteOnce"
       resources:
         requests: []
