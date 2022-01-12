@@ -11,3 +11,4 @@ spec:
   postgresVersion: 13
   instances:
   - replicas: 5
+  - dataVolumeClaimSpec: {}
