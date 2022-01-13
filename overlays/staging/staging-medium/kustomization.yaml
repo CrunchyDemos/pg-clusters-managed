@@ -2,8 +2,9 @@ namePrefix: staging-medium
 
 bases:
   - ../../../base/postgres
+  
+resources:
+  - config.yaml
 
 patchesStrategicMerge:
   - postgres.yaml
-  - config.yaml
-
