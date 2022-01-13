@@ -4,6 +4,9 @@ metadata:
   name: -gold
 spec:
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1
+  databaseInitSQL:
+    key: init.sql
+    name: init-database
   openshift: true
   port: 5432
   postgresVersion: 13
