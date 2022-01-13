@@ -15,4 +15,5 @@ spec:
       accessModes:
       - "ReadWriteOnce"
       resources:
-        requests: {}
+        requests:
+          storage: 1Gi
