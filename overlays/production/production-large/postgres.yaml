@@ -33,7 +33,6 @@ spec:
     pgbackrest:
       image: registry.developers.crunchydata.com/crunchydata/crunchy-pgbackrest:centos8-2.33-0
       repoHost:
-        dedicated: {}
       configuration:
       repos:
       - name: repo1
