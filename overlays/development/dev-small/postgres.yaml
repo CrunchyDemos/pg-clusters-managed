@@ -7,6 +7,9 @@ metadata:
     app.kubernetes.io/version: small
     app.kubernetes.io/managed-by: operations
 spec:
+  databaseInitSQL:
+    key: init.sql
+    name: init-database
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1
   postgresVersion: 13
   instances:
