@@ -8,6 +8,9 @@ metadata:
     app.kubernetes.io/managed-by: operations
 spec:
   postgresVersion: 13
+  databaseInitSQL:
+    key: init.sql
+    name: init-database
   instances:
     - name: 'pgc'
       replicas: 5
