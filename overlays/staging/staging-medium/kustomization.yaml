@@ -5,4 +5,5 @@ bases:
 
 patchesStrategicMerge:
   - postgres.yaml
+  - config.yaml
 
