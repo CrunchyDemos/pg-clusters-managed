@@ -9,9 +9,6 @@ metadata:
 spec:
   # image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-gis:centos8-13.4-3.1-1
   postgresVersion: 13
-  databaseInitSQL:
-    key: init.sql
-    name: init-database
   instances:
     - name: 'pgc'
       replicas: 2
