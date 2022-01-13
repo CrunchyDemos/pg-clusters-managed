@@ -7,7 +7,7 @@ metadata:
     app.kubernetes.io/version: medium
     app.kubernetes.io/managed-by: operations
 spec:
-  image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-gis:centos8-13.4-3.1-1
+  # image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-gis:centos8-13.4-3.1-1
   postgresVersion: 13
   databaseInitSQL:
     key: init.sql
