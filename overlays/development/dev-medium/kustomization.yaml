@@ -3,5 +3,6 @@ namePrefix: dev-medium
 bases:
   - ../../../base/postgres
 
-patchesStrategicMerge:
+# patchesStrategicMerge:
+patchesJson6902:
   - postgres.yaml
