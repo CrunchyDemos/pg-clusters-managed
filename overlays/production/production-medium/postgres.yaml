@@ -1,6 +1,7 @@
 apiVersion: postgres-operator.crunchydata.com/v1beta1
 kind: PostgresCluster
 metadata:
+  name: -gold
 spec:
   postgresVersion: 13
   instances:
