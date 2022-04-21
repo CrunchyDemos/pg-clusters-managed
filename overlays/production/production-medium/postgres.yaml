@@ -7,11 +7,11 @@ metadata:
     app.kubernetes.io/version: medium
     app.kubernetes.io/managed-by: operations
 spec:
-  image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.4-0 #3-1 #4-0
+  image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1 #3-1 #4-0
   postgresVersion: 13
   instances:
     - name: 'pgc'
-      replicas: 5
+      replicas: 3
       resources:
         limits:
           cpu: 1.0
