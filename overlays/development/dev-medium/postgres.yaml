@@ -10,4 +10,5 @@ spec:
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-ha:centos8-13.3-1
   postgresVersion: 13
   instances:
-    replicas: 3
+    - name: map-dev
+      replicas: 3
