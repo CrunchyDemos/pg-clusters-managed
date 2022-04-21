@@ -11,4 +11,4 @@ spec:
   postgresVersion: 13
   patchesJson6902:
   instances:
-    replicas: 3
+      replicas: 3
